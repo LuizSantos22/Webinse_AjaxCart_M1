@@ -21,10 +21,11 @@
                 <type>js</type>
                 <name>varien/product.js</name>
             </action>
-            <action method="addItem">
+            <!-- Removed the line for jquery-1.9.0.min.js to avoid issues with Ultimo theme -->
+             <!--<action method="addItem">
                 <type>js</type>
                 <name>ajaxcart/jquery-1.9.0.min.js</name>
-            </action>
+            </action>-->
             <action method="addItem">
                 <type>js</type>
                 <name>ajaxcart/noconflict.js</name>
